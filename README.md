@@ -61,35 +61,9 @@ Local virtual environments, caches, temporary analysis results, and raw run logs
 
 ## Install and run UnvibeCode
 
-Requires Python 3.11 or newer and internet access for hosted business analysis. Install the published package:
+Requires Python 3.11 or newer and internet access for hosted business analysis.
+
+### 1. Install the package
 
 ```bash
-python -m pip install --upgrade unvibecode
-python -m unvibecode --help
-python -m unvibecode review --repository "/path/to/repository"
-```
-
-On Windows, use a quoted Windows path, for example:
-
-```powershell
-py -m unvibecode review --repository "D:\Projects\my-repository"
-```
-
-The supported command and output scope can vary by package version. Check the CLI's completion status before treating a report as complete. No customer OpenAI API key is required; analysis uses UnvibeCode's hosted service as described in the [data processing documentation](docs/DATA_PROCESSING.md).
-
-## Tools used for this challenge
-
-- UnvibeCode CLI 0.3.15 and its generated HTML/context outputs.
-- Python 3.13.6 and Git for environment, repository, and source inspection.
-- Flask source at the commit recorded above; function-level references are in the workflow verification report.
-- GitHub issue tracker review for duplicate checking.
-
-## Project and submission are distinct
-
-The UnvibeCode product materials in this repository remain the upstream project's work. The Cohort 3 documents are my independent analysis and proposal; they do not claim to be official product documentation or an accepted contribution. No GitHub issue, pull request, or challenge form was submitted as part of this preparation.
-
-## License
-
-The original [LICENSE](LICENSE) and [licensing clarification](docs/LICENSE_CLARIFICATION.md) are preserved. UnvibeCode documents a mixed licensing model for the official Python package, so do not assume every packaged asset is covered by the repository's Apache license. The Flask context export includes source excerpts and is accompanied by the applicable [Flask license notice](unvibecode_cohort3_submission/evidence/flask-analysis-20261106/FLASK_LICENSE.txt).
-
-The challenge submission is independent analysis. No separate license has been selected for those materials in this preparation; confirm the intended license scope before publication if you want to grant reuse rights.
+python -
