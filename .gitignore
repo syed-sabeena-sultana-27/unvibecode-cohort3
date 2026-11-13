@@ -1,0 +1,48 @@
+# Python environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+credentials.json
+secrets.json
+**/.aws/
+**/.ssh/
+**/.npmrc
+**/.pypirc
+*.pem
+*.key
+*.p12
+*.pfx
+*.secret
+id_rsa*
+id_ed25519*
+
+# Node, test, and tool caches
+node_modules/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local/generated review output and temporary files
+unvibecode_results/
+shipready_results/
+*.tmp
+*.temp
+*.swp
+*.bak
+*.log
+*.out
+/tmp/
+/temp/
+
+
+docs/OSS_Contributor_Credentials/
